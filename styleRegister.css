@@ -1,0 +1,63 @@
+body {
+    background-image: url("images/background1.jpg");
+    margin:0;
+    padding: 0;
+    background-size: cover;
+   }
+  
+   .form-area{
+     position: absolute;
+     top:50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 350px;
+     height: 550px;
+     box-sizing: border-box;
+     background: rgba(0,0,0,0.5);
+   }
+
+   
+   .form-area p{
+     margin: 0 0 10px 10px;
+     padding: 5px 0 0 10px;
+     font-weight: bold;
+     color: white;
+   }
+  
+   .form-area input, select{
+     margin-bottom: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     width: 80%;
+     color:blue;
+     font-size: medium;
+   }
+  
+   .form-area input[type=text],
+   .form-area input[type=data],
+   .form-area input[type=tel],
+   .form-area input[type=number] {
+      border: none;
+      border-bottom: 1px solid white;
+      background-color: transparent;
+      outline: none;
+      height: 20px;
+   }
+  
+  
+   .form-area input[type=submit] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color:white;
+    font-size: 15px;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 25px;
+    
+   }
+
+   ::placeholder{
+       color:brown;
+   }

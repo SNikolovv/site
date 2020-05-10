@@ -1,0 +1,212 @@
+body{
+	background-color: rgb(211, 211, 211);
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+h2{
+	font-weight: bold;
+}
+
+h3{
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+h4{
+	
+	font-weight: bold;
+
+}
+
+.card img {
+	width: 100%;
+}
+
+.imageRun{
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+}
+.carousel {
+	position: relative;
+	width: 100%;
+	display: block;
+	height: 50%;
+}
+
+.info {
+	width: 60%;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	font-size: 1vw;
+}
+
+.card {	
+	margin-top: 30px;
+	margin-left: 4%;
+	margin-bottom: 30px;
+	overflow: hidden;
+	border-radius: 10px;
+	width: 20%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 1vw;
+}
+
+.subheading2{
+	width: 100%;
+	text-align: center;
+	 margin: auto;
+}
+
+.descr {
+	text-align: center;
+	padding: auto;
+}
+
+
+#facilitiesHead {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.facilities {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.homedesc{
+	width: 90%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: 5%;
+	font-size: 1.5vw;
+	font-style: italic;
+}
+
+
+#info1 {
+	display: inline-block;
+
+	text-align: right;
+	width: 50%;
+	margin-left: 19%;
+	margin-right: 1%;
+	vertical-align: top;
+	font-size: 1vw;
+}
+
+
+#footer {
+	width: 100%;
+	background-color:  rgba(0, 0, 0, 0.75);
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+
+@media screen and (max-width: 450px){
+	.card{
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.info {
+		width: 80%;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		font-size: 3vw;
+	}
+
+	.title {
+		font-size: 6vw;
+	}
+
+	.subheading {
+		font-size: 5vw;
+	}
+
+
+	#info1 {
+		width: 100%;
+		float: right;
+		text-align: center;
+		font-size: 3vw;
+	}
+
+	
+	.descr {
+		font-size: 3vw;
+	}
+
+	h3 {
+		font-size: 5vw;
+		font-style: italic;
+	}
+
+	h4 {
+		font-size: 4vw;
+	}
+
+	.navbar {
+		position: relative;
+		margin: 0;
+		height: 0;
+		background-color: rgba(0, 0, 0, 1)
+	}
+
+	.navbar-brand {
+		display: none;
+	}
+
+	ul>li {
+		float: left;
+		vertical-align: top;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 770px) {
+	.card {
+		width: 40%;
+		margin-left: 6%;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+
+	p, ul {
+		font-size: 1.6vw;
+	}
+
+	.info {
+		width: 80%;
+		font-size: 3vw;
+	}
+
+	nav {
+		position: sticky;
+		margin: 0;
+		padding: 0;	
+		height: 10px;	
+	}
+
+	.navbar-brand {
+		display: none;
+	}
+
+	ul>li {
+		float: left;
+		vertical-align: top;
+	}
+}

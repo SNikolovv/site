@@ -1,0 +1,136 @@
+/*stylesheet*/
+html{
+	min-height:100%;
+	position:relative;
+}
+body{
+	margin: 0;
+	height:100%;
+	overflow:hidden;
+	background-color:black;
+}
+#navigation{
+	background-color:rgba(0,0,0,0.75);
+}
+#carousel-full-page{
+	padding:0;
+	margin:0;
+	width:100%;
+}
+#Carousel{
+	height:100%;
+}
+#indicator-menu{
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.active_image_indicator{
+	border-width: 2px;
+	border-style: solid;
+	border-color: blue;
+}
+.image-menu{
+	width:150px;
+}
+.indicator-image{
+	margin-bottom: 10px;
+	display:inline-block;
+	margin:auto;
+	min-width:150px;
+	max-width: 50%;
+}
+.indicator-menu-container{
+	position:absolute;
+	bottom: 20px;
+	width: 100%;
+	white-space: nowrap;
+	height: auto;
+	background-color: rgba(0,0,0,0.75);
+}
+.indicator-image-container{
+	overflow:auto;
+	padding: 15px;
+	width:100%;
+	z-index:1;
+	height: 130px;
+	margin:auto;
+	position: relative;
+}
+.glyphs {
+	margin-left:auto;
+	margin-right:auto;
+	width:6px;
+	margin: auto;
+	z-index: 50;
+	position:relative;
+}
+#menuGlyphicon {
+	border: solid;
+	border-color:white;
+	border-width: 0 5px 5px 0;
+	display: inline-block;
+	padding: 4px;
+	z-index: 51;
+	left:50%;
+}
+.down{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+.up{
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+@media only screen and (max-width:1100px){
+	#carousel-full-page{
+		padding-top:50px;
+		position: relative;
+	}
+	body{
+		overflow:scroll;
+	}
+	.indicator-menu-container{
+		padding:0;
+		position:relative;
+	}
+	.rightScrol{
+		display:none;
+	}
+	.leftScroll{
+		display:none;
+	}
+}
+@media only screen and (max-width:770px){
+	body{
+		overflow:scroll;
+	}
+	.navbar-brand{
+		display:none;
+	}
+	.nav navbar-nav{
+		height:50px;
+	}
+	.container-fluid{
+		height:50px;
+		overflow:hidden;
+	}
+	.rightScrol{
+		display:none;
+	}
+	.leftScroll{
+		display:none;
+	}
+	li{
+		float:left;
+	}
+	.indicator-image{
+		width:40%;
+		display:block;
+		margin:5px;
+	}
+	.indicator-image-container{
+		padding:0;
+		height:auto;
+		white-space: pre;
+	}
+}
