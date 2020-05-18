@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="StaffStyle.css">
+    <title>Поднови заплата</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Витоша</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Начална страница</a></li>
+            <li><a href="group-training.html">Групови занимания</a></li>
+            <li><a href="gallery.html">Галерия</a></li>
+            <li ><a href="contact.html">Вход служители</a></li>
+            <li><a href="register.html">Регистрация на нов клиент</a></li>
+            <li><a href="card.html">Подновяване на карта</a></li>
+            <li ><a href="staff.html">Служители</a></li>
+            <li class="active"><a href="personal_salary.html">Поднови заплата</a></li>
+
+          </ul>
+        </div>
+   </nav>
+
+   <div class="form-area">
+    <form >
+         
+            <p>Име</p>
+            <input type="text" placeholder="Иван">
+
+            <p>Фамилия</p>
+            <input type="text" placeholder="Иванов">
+        
+            <p>Телефон</p>
+            <input type="tel"  placeholder="0899781298" > 
+        
+            <p>Дата на раждане</p>
+            <input type="date">
+
+            <p>ЕГН</p>
+            <input type="number"   placeholder="9512110736" required>
+
+           <p>Позиция</p>
+           <select >
+           <option >Рецепционист</option>
+           <option >Инструктор</option>
+          </select>
+
+          <p>Заплата</p>
+            <input type="number"  step="0.01" placeholder="887.25" required> 
+     
+          <p>Потребителско име</p>
+            <input type="text" placeholder="ivan123" > 
+     
+         <p>Парола</p>
+            <input type="text" placeholder="Ivanov7812" > 
+
+            <p>Тип инстуктор</p>
+           <select >
+           <option >Кардио</option>
+           <option >Силови тренировки</option>
+           <option >Йога</option>
+           <option >Канго джъмпс</option>
+           <option >Фит бал</option>
+           <option >Боди и абс</option>
+           <option >Б пъмп</option>
+           <option >Кросфит</option>
+           <option >Пилатес</option>
+          </select>
+    
+        <input type="submit" value="Поднови ">
+    </form>
+       </div>
+</body>
+</html>
